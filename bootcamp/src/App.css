@@ -1,0 +1,139 @@
+.maincontent{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  background-image: linear-gradient(rgba(132, 146, 103, 0.5), rgba(134, 174, 118, 0.5));
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  
+  
+  
+}
+
+
+
+
+
+.leftcontent{
+  width: 45%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 1px 0px 5px gray;
+  transition: width 2s, height 2s, background-color 3s;
+}
+
+.leftcontent:hover{
+  background-color:bisque;
+}
+
+.profpic{
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.leftcontent h1{
+  font-size: 50px;
+  text-shadow: 2px 2px silver;
+}
+
+.taskimg{
+  width: 500px;
+  height: 500px;
+  border-radius: 15%;
+}
+
+.rightcontent{
+  width: 55%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: baseline;
+  align-items: center;
+  gap: 30px;
+  transition: width 2s, height 2s, background-color 3s;
+
+}
+
+.rightcontent:hover{
+  background-color:bisque;
+}
+
+.rightcontent h1 {
+  font-size: 40px;
+  padding: 30px;
+  text-shadow: 2px 2px silver;
+}
+
+.inputcontent{
+  display: flex;
+  gap: 10px;
+}
+
+.inputcontent input{
+     width: 480px;
+     height: 50px;
+     border-radius: 15px;
+     padding-left:10px ;
+     font-size: 15px;
+     border: none;
+     background-color: rgb(234, 233, 233);
+
+}
+
+.inputcontent button{
+  width: 70px;
+  height: 50px;
+  border-radius: 15px;
+  background-color: rgb(152, 228, 237);
+  border: none;
+}
+
+.taskcontent{
+  width: 550px;
+  height: 50px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 2px gray;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: space-around;
+
+}
+
+.notcompleted{
+  width: 300px;
+  font-size: 16px;
+}
+
+
+.completed{
+  width: 300px;
+  font-size: 16px;
+  text-decoration: line-through;
+}
+.updatebutton{
+  width: 50px;
+  height: 30px;
+  border-radius: 8px;
+  border: none;
+  background-color: rgb(152, 228, 237);
+}
+
+.deletebutton{
+  width: 50px;
+  height: 30px;
+  border-radius: 8px;
+  border: none;
+  background-color: rgb(152, 228, 237);
+
+}
+
+ul{
+  list-style-type: none;
+}
